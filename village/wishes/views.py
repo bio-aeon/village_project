@@ -30,9 +30,11 @@ def post_todo(request):
     if form.is_valid():
         text_lines = [form.cleaned_data['aim{}'.format(i)] for i in range(1, 6)]
         image_name = draw_text_service_factory(social_type).generate_image(text_lines)
-        image_url = '{host}{media_url}{image_name}'.format(host=request.get_host(),
-                                                           media_url=settings.MEDIA_URL,
-                                                           image_name=image_name)
+        proto = 'https://' if request.is_secure() else 'http://'
+        image_url = '{proto}{host}{media_url}{image_name}'.format(proto=proto,
+                                                                  host=request.get_host(),
+                                                                  media_url=settings.MEDIA_URL,
+                                                                  image_name=image_name)
 
         redirect_url = social_service_factory(social_type).get_redirect_url(image_url)
         return HttpResponse(json.dumps({'redirect_url': redirect_url}),
