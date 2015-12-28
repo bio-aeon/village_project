@@ -1,0 +1,33 @@
+                                            ==Release notes_Samsung InterFace==
+
+Compiler of release notes: Dalton Maag
+Designer: Dalton Maag
+Designer URL: daltonmaag.com
+
+Date of creation: 2012-11-30
+
+
+Important notes on this release:
+- This is the first release.
+- This release only includes the Regular and Black weights.
+- The vertical metrics of the fonts that are part of this release are subject to change when further weights of the family are to be released. 
+- Future releases will include Regular, Bold, Black, Regular Italic, Bold Italic weights.
+
+
+Basic information
+1 Basic Family name: Samsung InterFace
+2 TrueType Version record: 1.000
+3 Regional package: Default
+4 Supported scripts: Latin, Greek, Cyrillic
+5 Weights/Styles: Regular, Black
+6 Usage: UI, Print
+
+
+Technology
+1 File formats: The files have been delivered in the TrueType-based OpenType format.
+2 Embedding settings: Everything is allowed.
+3 Hinting information: Auto hinting
+4 Default numerals: Tabular numerals as default.
+
+
+ 

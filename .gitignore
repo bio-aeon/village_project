@@ -1,0 +1,10 @@
+.directory
+.idea/*
+venv/*
+logs/*
+pids/*
+.python-eggs/*
+*.pyc
+*.egg-info
+/village/village/settings/dev.py
+/village/village/settings/prod.py

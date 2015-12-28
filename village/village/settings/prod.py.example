@@ -1,0 +1,7 @@
+from .base import *
+
+ALLOWED_HOSTS = ['village.wps.su']
+
+FACEBOOK_APP_ID = 534678566694684
+
+SHARE_URL = 'http://village.wps.su'

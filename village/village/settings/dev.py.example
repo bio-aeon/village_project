@@ -1,0 +1,7 @@
+from .base import *
+
+DEBUG = True
+
+FACEBOOK_APP_ID = 536513936402579
+
+SHARE_URL = 'http://localhost'
